@@ -13,18 +13,18 @@ public class SimpleCalc
     public SimpleCalc(int x, int y)
     {
         firstNumber = x;
-        firstNumber = y;
+        secondNumber = y;
     }
     
     
     public int add(){
-        return firstNumber + n2;
+        return firstNumber + secondNumber;
     }
     public int subtract(){
-        return n1 - n2;
+        return firstNumber - secondNumber;
     }
     public int mult(){
-        return n1 * n2;
+        return firstNumber * secondNumber;
     }
     public int div(){
         return firstNumber / secondNumber;
